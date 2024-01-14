@@ -4,7 +4,7 @@
 # Make it happen!
 # sudo $MYSQL_ROOT_PASS=[PASSWORD] ./dev/setup.bash
 
-$dir_path="~/github.com/johncoleman83/AirBnB_clone_v3/"
+$dir_path="~/github.com/felixsindani/AirBnB_clone_v3/"
 
 apt-get update
 apt apt install -y --force-yes \
@@ -16,9 +16,9 @@ apt-get update
 apt-get install -y --force-yes mysql-server
 rm mysql-apt-config_0.6.0-1_all.deb
 service mysql start
-mkdir -p ~/github.com/johncoleman83/
-cd ~/github.com/johncoleman83/
-git clone https://github.com/jarehec/AirBnB_clone_v3.git
+mkdir -p ~/github.com/felixsindani/
+cd ~/github.com/felixsindani/
+git clone https://github.com/felixsindani/AirBnB_clone_v3.git
 cd AirBnB_clone_v3
 pip3 -install -r requirements.txt
 cat dev/7-dump.sql | mysql -uroot -p"$MYSQL_ROOT_PASS"

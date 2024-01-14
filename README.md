@@ -68,7 +68,7 @@ All the web dynamic Flask scripts, HTML templates and Javascript scripts are in 
   * __bash:__ ShellCheck 0.3.3
   * __javascript__: semistandard
 
-<img src="https://github.com/jarehec/AirBnB_clone_v3/blob/master/dev/hbnb_step5.png" />
+<img src="" />
 
 ## Setup
 
